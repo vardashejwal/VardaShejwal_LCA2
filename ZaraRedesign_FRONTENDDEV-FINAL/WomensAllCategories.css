@@ -1,0 +1,339 @@
+body {
+    background-color: rgb(0, 0, 0);
+}
+
+#navbar{
+    display: grid;
+    grid-template-rows: repeat(15, 10px);
+    grid-template-columns: repeat(100,1fr);
+    background-color: rgb(255, 255, 255);
+    
+}
+
+#menu {
+    grid-column: 7 / 11 ;
+    grid-row: 7 / 11  ;
+}
+
+#zaralogo {
+    grid-column: 54 ;
+    grid-row: 5 / 12;
+}
+
+#profile {
+    grid-column: 91;
+    grid-row: 6
+}
+
+#help {
+    grid-row: 6 ;
+    grid-column: 93 ;
+    
+}
+
+ .search-bar {
+    display: grid;
+    grid-template-rows: repeat(8, 5px);
+    grid-template-columns:repeat(100,1fr) ;
+    width: 500px;
+    height: 40px;
+    background-color: #333333;
+    border-radius: 7px;
+    padding: 5px;
+}
+
+.search-bar input {
+    background: transparent;
+    border: 0;
+    outline: none;
+    grid-row: 2 / 8;
+    grid-column: 10;
+    color: #ffffff;
+    font-size: 140%;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.search-bar #microphone {
+    grid-column: 92;
+    grid-row: 2;
+    background: transparent;
+    border: 0;
+    outline: none;
+}
+
+.search-bar #searchicon {
+    grid-column: 93;
+    grid-row: 2;
+    background: transparent;
+    border: 0;
+    outline: none;
+}
+
+#searchandbuttons1 {
+display: grid;
+grid-template-rows: repeat(8, 5px);
+grid-template-columns:repeat(100,1fr) ;
+}
+
+#search-bar {
+grid-column: 50;
+}
+
+.womanheading {
+color: white;
+font-family: 'Times New Roman', Times, serif;
+font-size: 2.5em;
+display: block;
+display: flex;
+justify-content: center;
+margin: 3%;
+}
+
+
+.categoryANDtoggle{
+display: flex;
+justify-content: space-between;
+}
+
+
+.Categories-Header {
+color: white;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-size: 2.5em;
+font-weight: lighter;
+margin-left: 1%;
+margin-top: -10px;
+}
+
+.Categories-Text {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 1.8em;
+  color: #ffffff;
+  margin: 5px;
+  font-weight: lighter;
+  
+}
+
+.Categories-Container {
+margin: 1%;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+
+}
+
+
+.category-image {
+height: 282px;
+width: 290px;
+border-radius: 10px;
+display: flex;
+align-items: flex-end;
+justify-content: center;
+margin-bottom: 40px;
+}
+
+
+
+#category-1 {
+background-image: linear-gradient(to top, black, transparent), url(images/WomansCategory-1.png);
+background-repeat: no-repeat;
+}
+
+#category-2 {
+background-image: linear-gradient(to top, black, transparent), url(images/WomansCategory-2.png);
+background-repeat: no-repeat;
+}
+
+#category-3 {
+background-image: linear-gradient(to top, black, transparent), url(images/WomansCategory-3.png);
+background-repeat: no-repeat;
+}
+
+#category-4 {
+background-image: linear-gradient(to top, black, transparent), url(images/WomansCategory-4.png);
+background-repeat: no-repeat;
+}
+
+#category-5 {
+background-image: linear-gradient(to top, black, transparent), url(images/WomansCategory-5.png);
+background-repeat: no-repeat;
+}
+
+#category-6 {
+background-image: linear-gradient(to top, black, transparent), url(images/WomansCategory-6.png);
+background-repeat: no-repeat;
+}
+
+#category-7 {
+background-image: linear-gradient(to top, black, transparent), url(images/WomansCategory-7.png);
+background-repeat: no-repeat;
+}
+
+#category-8 {
+background-image: linear-gradient(to top, black, transparent), url(images/WomansCategory-8.png);
+background-repeat: no-repeat;
+}
+
+#category-9 {
+background-image: linear-gradient(to top, black, transparent), url(images/WomansCategory-9.png);
+background-repeat: no-repeat;
+}
+
+#category-10 {
+background-image: linear-gradient(to top, black, transparent), url(images/WomansCategory-10.png);
+background-repeat: no-repeat;
+}
+
+#category-11 {
+background-image: linear-gradient(to top, black, transparent), url(images/WomansCategory-11.png);
+background-repeat: no-repeat;
+}
+
+#category-12 {
+background-image: linear-gradient(to top, black, transparent), url(images/WomansCategory-12.png);
+background-repeat: no-repeat;
+}
+
+#category-13 {
+background-image: linear-gradient(to top, black, transparent), url(images/WomansCategory-13.png);
+background-repeat: no-repeat;
+}
+
+#category-14 {
+background-image: linear-gradient(to top, black, transparent), url(images/WomansCategory-14.png);
+background-repeat: no-repeat;
+}
+
+#category-15 {
+background-image: linear-gradient(to top, black, transparent), url(images/WomansCategory-15.png);
+background-repeat: no-repeat;
+}
+
+#category-16 {
+background-image: linear-gradient(to top, black, transparent), url(images/WomansCategory-16.png);
+background-repeat: no-repeat;
+}
+
+#category-17 {
+background-image: linear-gradient(to top, black, transparent), url(images/WomansCategory-17.png);
+background-repeat: no-repeat;
+}
+
+#category-18 {
+background-image: linear-gradient(to top, black, transparent), url(images/WomansCategory-18.png);
+background-repeat: no-repeat;
+}
+
+#category-19 {
+background-image: linear-gradient(to top, black, transparent), url(images/WomansCategory-19.png);
+background-repeat: no-repeat;
+}
+
+#category-20 {
+background-image: linear-gradient(to top, black, transparent), url(images/WomansCategory-20.png);
+background-repeat: no-repeat;
+}
+
+.list-view {
+flex-direction: column;
+
+}
+
+.list-item {
+background-image: none !important;
+width: 100% !important;
+height: auto !important;
+justify-content: flex-start !important;
+font-size: 0.8em;
+margin: -3px;
+}
+
+.grid-item {
+width: 290px;
+height: 282px;
+justify-content: center;
+padding: 0;
+border-bottom: none;
+}
+
+#toggleViewBtn {
+padding: 10px; 
+font-size: 16px; 
+background-color: #333333;
+color: #ffffff;
+outline: none;
+border: 0;
+border-radius: 10px;
+margin-right: 20px;
+
+}
+
+@media only screen and (max-width : 767px) {
+
+#navbar {
+    min-width: 600px;
+    grid-template-columns: repeat(10, 1fr);
+}
+
+#zaralogo {
+    padding-left: 20px;
+    scale: 1.5;
+    grid-column: 2;
+}
+
+#menu {
+    padding-right: 20px;
+    scale: 2;
+    grid-column: 9;
+}
+
+#profile {
+    display: none;
+}
+
+#help {
+    display: none ;
+}
+
+#wishlistheart {
+    display: none ;
+}
+
+#shoppingbag {
+    display: none ;
+}
+
+.search-bar{
+    margin-left: 45px;
+}
+
+
+.Categories-Container{
+    min-width: 600px;
+    justify-content: space-evenly;
+    margin-top: 0%;
+    
+
+}
+
+.category {
+    height: 27vh;
+    width: 45vw;
+}
+
+.categoryANDtoggle {
+    min-width: 600px;
+
+}
+
+.womanheading {
+    margin-top: 30px;
+    margin-left: 10px;
+    justify-content: flex-start;
+    min-width: 600px;
+    font-size: 27px;
+
+}
+
+}
